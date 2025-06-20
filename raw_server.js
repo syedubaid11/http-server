@@ -9,3 +9,7 @@ server.on('connection',()=>{
 server.on('close',()=>{
     console.log('Closing connection!')
 })
+
+server.on('listening',()=>{
+    console.log("Server is listening?")
+})
